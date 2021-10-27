@@ -1,0 +1,79 @@
+body{
+  background-color:rgb(165, 148, 163);
+}
+.text-center{
+  color:brown;
+  display:flex;
+  justify-content:center;
+  font-size:3rem;
+}
+.TodoBox{
+  background:white;
+  width:500px;
+  height: 600px;
+  border:5px solid brown;
+  border-radius:15px;
+  /* display:flex; */
+  justify-content:center;
+  margin:0 auto;
+}
+.addBtn{
+  background:rgb(84, 60, 122);
+  color:rgba(245, 245, 248, 0.781);
+  border-radius:50%;
+  margin-left:14px;
+  font-size:30px;
+  font-weight:bold;
+  outline:none;
+  border-color:transparent;
+  border:none;
+
+}
+#note{
+  border:none;
+  border-bottom:5px solid rgba(128, 19, 19, 0.5);
+  padding-bottom:5px;
+  font-size:25px;
+  font-weight:bold;
+  
+}
+#note:focus{
+  outline: none;
+}
+.input{
+  margin-top:15px;
+  display: flex;
+  justify-content: center;
+}
+.item{
+  color:saddlebrown;
+  font-weight:bold;
+  font-size:19px;
+  list-style:none;
+  display:flex;
+  position:relative;
+  
+}
+/* ul{
+  display:flex;
+} */
+.delBtn{
+  background:rgba(90, 99, 226, 0.616);
+  color:rgba(245, 245, 248, 0.781);
+  border-radius:50%;
+  font-size:20px;
+  font-weight:bold;
+  outline:none;
+  border-color:transparent;
+  border:none;
+  margin-left:-15px;
+  margin-right:15px;
+}
+.delBtn:hover{
+  background-color: crimson;
+}
+.contain{
+  display:flex;
+  padding:5px;
+
+}
